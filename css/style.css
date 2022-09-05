@@ -6,12 +6,17 @@
 }
 
 /* Common */
+.container-flex{
+    background-color: orange;
+    width: calc(100% / 3);
+    display:flex;
+    justify-content: center;
+
+}
 
 ul{
-    width: ;
     list-style-type: none;
-    background-color: orange;
-    border: 1px solid black;
+    border: 1px dashed black;
 }
 .flex{
     display:flex;
@@ -29,6 +34,7 @@ nav{
     background-color: lightcoral;
     align-self: center;
     margin: auto;
+    
 }
 
 /* BANNER */
