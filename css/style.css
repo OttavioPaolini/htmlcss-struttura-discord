@@ -32,7 +32,7 @@ nav{
 }
 
 /* BANNER */
-.banner{
+.row{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,9 +40,39 @@ nav{
     background-color: navy;
 }
 .banner-text{
-    padding: auto;
     border: 1px dashed black;
     width: 60%;
     height: 250px;
     background-color: palevioletred;
+}
+
+/* MAIN */
+
+.row-inline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    background-color: rgb(255, 255, 255);
+}
+.blu-square{
+    border: 1px dashed black;
+    width: 50%;
+    height: 250px;
+    background-color: cornflowerblue;
+}
+.pink-square{
+    border: 1px dashed black;
+    width: 30%;
+    height: 250px;
+    background-color: pink;
+}
+
+.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    background-color: lightgrey;
 }
