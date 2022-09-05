@@ -4,3 +4,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Common */
+/* .container{
+    width: 80%;
+    background-color: red;
+    
+} */
+/* Nav */
+.nav{
+    background-color: aquamarine;
+    height: 50px;
+}
+
+.container-flex{
+    display: flex;
+    justify-content: center;
+
+}
+
+nav{
+    width: 25%;
+    background-color: orange;
